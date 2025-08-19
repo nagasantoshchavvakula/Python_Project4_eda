@@ -1,0 +1,10 @@
+streamlit==1.37.1
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.22
+altair>=5.3
+scikit-learn>=1.5
+kaggle>=1.6
+pyarrow>=16.1
