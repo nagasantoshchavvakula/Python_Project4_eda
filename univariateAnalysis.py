@@ -8,13 +8,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
-#--------------------------------------------
-#Univariate Analysis - Plotting Histograms
-#--------------------------------------------
-
 
 # Loads/reads the dataset
 df = pd.read_csv(r'data\student_habits_performance.csv')  
+
+#--------------------------------------------
+#Univariate Analysis - Plotting Histograms
+#--------------------------------------------
 
 # Set the aesthetic style of the plots
 sns.set_style("whitegrid")
@@ -62,7 +62,7 @@ for col in unique_identifiers:
 print("\nRemoved unique identifier columns:", unique_identifiers)
 print("\nFinal categorical columns for univariate analysis:", categorical_columns)
 
-# 1.Plotting bar charts for each categorical column
+# Plotting bar charts for each categorical column
 for column in categorical_columns:
     plt.figure(figsize=(10, 6))
     ax=sns.countplot(data=df, x=column, palette='viridis', width=0.4)
@@ -82,3 +82,4 @@ for column in categorical_columns:
     plt.tight_layout()
     plt.savefig(f'outputPlotsUnivariate/barPlots/bar_{column}.png')  # Save the plot
     plt.show()
+    
