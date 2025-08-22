@@ -1,7 +1,7 @@
 """
 Step 2: Exploratory Data Analysis (EDA) 
 This script works with the Student Performance dataset by loading the data,
-and creating visualizations for univariate, bivariate, and multivariate analysis.
+and creating visualizations for univariate analysis.
 """
 
 import matplotlib.pyplot as plt
