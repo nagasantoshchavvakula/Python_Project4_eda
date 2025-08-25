@@ -46,7 +46,7 @@ def load_data():
     pd.DataFrame
         Dataframe containing student lifestyle habits and performance scores.
     """
-    df = pd.read_csv(r"data\student_habits_performance.csv")
+    df = pd.read_csv("data/student_habits_performance.csv")
     return df
 
 df = load_data()
