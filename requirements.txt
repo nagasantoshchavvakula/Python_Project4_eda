@@ -1,3 +1,7 @@
+"""
+# Requirements for the Streamlit Data Science App
+This file lists the necessary Python packages and their versions required to run the Streamlit Data Science App.
+"""
 streamlit==1.37.1
 pandas>=2.2
 numpy>=1.26
